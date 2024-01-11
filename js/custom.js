@@ -15,6 +15,17 @@
         $(".navbar-collapse").collapse('hide');
     });
 
+    $('#message').click(function(){
+      window.location.href = "https://play.google.com/store/apps/details?id=com.messaging.textrasms.manager";
+    });
+
+    $('#flyer').click(function(){
+      window.location.href = "https://play.google.com/store/apps/details?id=com.graphicdesign.postermaker.flyermaker";
+    });
+    $('#gallery').click(function(){
+      window.location.href = "https://play.google.com/store/apps/details?id=com.photo.gallery.photo.albums";
+    });
+
     $('.slick-slideshow').slick({
       autoplay: true,
       infinite: true,
@@ -31,5 +42,6 @@
   })(window.jQuery);
 
   //Social Links
+  
 
 

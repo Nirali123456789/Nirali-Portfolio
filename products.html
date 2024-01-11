@@ -1,310 +1,333 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="description" content="">
-        <meta name="author" content="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title> - Products</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- CSS FILES -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title> Products</title>
 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/slick.css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
 
-        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
-<!--
+    <link rel="stylesheet" href="css/slick.css" />
+
+    <link href="css/tooplate-little-fashion.css" rel="stylesheet">
+    <!--
 
 Tooplate 2127 Little Fashion
 
 https://www.tooplate.com/view/2127-little-fashion
 
 -->
-    </head>
-    
-    <body>
+</head>
 
-        <section class="preloader">
-            <div class="spinner">
-                <span class="sk-inner-circle"></span>
+<body>
+
+    <section class="preloader">
+        <div class="spinner">
+            <span class="sk-inner-circle"></span>
+        </div>
+    </section>
+
+    <main>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand" href="index.html">
+                    <strong><span>My</span> Works</strong>
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Story</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="products.html">Products</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
-        </section>
-    
-        <main>
+        </nav>
 
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <a class="navbar-brand" href="index.html">
-                        <strong><span>My</span> Works</strong>
-                    </a>
-
-                    <div class="d-lg-none">
-                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
-
-                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">Story</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link active" href="products.html">Products</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-
-                        <div class="d-none d-lg-block">
-                            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
-
-                            <a href="product-detail.html" class="bi-bag custom-icon"></a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-
-            <header class="site-header section-padding d-flex justify-content-center align-items-center">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-10 col-12">
-                            <h1>
-                                <span class="d-block text-primary">Some Work</span>
-                                <span class="d-block text-dark">Done by Me</span>
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </header>
-
-            <section class="products section-padding">
-                <div class="container">
-                    <div class="row">
-                        
-                        <div class="col-12">
-                            <h2 class="mb-5">Android Development</h2>
-                        </div>
-
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/slideshow/Message-banner.jpg" class="img-fluid product-image" alt="">
-                                </a>
-
-                   
-
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Messanger</a>
-                                        </h5>
-
-                                        <p class="product-p">Messanger-Text Message App</p>
-                                    </div>
-
-                
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/slideshow/Flyer.webp" class="img-fluid product-image" alt="">
-                                </a>
-
-                     
-
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Flyer-Template Maker</a>
-                                        </h5>
-                                        <p class="product-p">Flyer maker: Poster my wall</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/product/Gallery.jpg" class="img-fluid product-image" alt="">
-                                </a>
-
-                                <div class="product-top d-flex">
-                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                                </div>
-
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Photo Gallery</a>
-                                        </h5>
-
-                                        <p class="product-p"> Private gallery, collection gallery, and photo gallery!
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12">
-                            <h2 class="mb-5">ios Development</h2>
-                        </div>
-
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/slideshow/Hangman.jpg" class="img-fluid product-image" alt="">
-                                </a>
-
-                                <div class="product-top d-flex">
-                                    <span class="product-alert">Hangman</span>
-
-                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                                </div>
-
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Hangman Game</a>
-                                        </h5>
-
-                                        <p class="product-p">Guess the letters in the secret word to solve the puzzle</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/product/Weather.jpg" class="img-fluid product-image" alt="">
-                                </a>
-
-                                <div class="product-top d-flex">
-                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                                </div>
-
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Weather</a>
-                                        </h5>
-
-                                        <p class="product-p">Weather App using SwiftUi</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/product/Signup.png" class="img-fluid product-image" alt="">
-                                </a>
-
-                                <div class="product-top d-flex">
-                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                                </div>
-
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Authentication</a>
-                                        </h5>
-
-                                        <p class="product-p">Authentication with Firebase</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-        </main>
-
-        <footer class="site-footer">
+        <header class="site-header section-padding d-flex justify-content-center align-items-center">
             <div class="container">
                 <div class="row">
-    
-                    <div class="col-lg-3 col-10 me-auto mb-4">
-                        <h4 class="text-white mb-3"><a href="index.html">Nirali</a> Pandya</h4>
-                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2024 <strong>Nirali
-                                Pandya</strong></p>
-                        <br>
-                        
+
+                    <div class="col-lg-10 col-12">
+                        <h1>
+                            <span class="d-block text-primary">Some Work</span>
+                            <span class="d-block text-dark">Done by Me</span>
+                        </h1>
                     </div>
-    
-                    <div class="col-lg-5 col-8">
-                        <h5 class="text-white mb-3">Sitemap</h5>
-    
-                        <ul class="footer-menu d-flex flex-wrap">
-                            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Story</a></li>
-    
-                            <li class="footer-menu-item"><a href="products.html" class="footer-menu-link">Products</a></li>
-    
-                            <li class="footer-menu-item"><a href="contact.html" class="footer-menu-link">Contact</a></li>
-                        </ul>
-                    </div>
-    
-                    <div class="col-lg-3 col-4">
-                        <h5 class="text-white mb-3">Social</h5>
-    
-                        <ul class="social-icon">
-    
-                            <li><a href="https://www.linkedin.com/in/nirali-pandya-a00659b1"
-                                    class="social-icon-link bi-linkedin"></a></li>
-    
-                            <li><a href="mailto:nehavaidya95@gmail.com" class="social-icon-link bi-envelope"></a></li>
-    
-                            <li><a href="https://join.skype.com/invite/yxzkhqr0HZ6B" class="social-icon-link bi-skype"></a>
-                            <li><a href="https://github.com/Nirali123456789" class="social-icon-link bi-github"></a></li>
-                            </li>
-                        </ul>
-                    </div>
-    
                 </div>
             </div>
-        </footer>
+        </header>
 
-        <!-- JAVASCRIPT FILES -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/Headroom.js"></script>
-        <script src="js/jQuery.headroom.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/custom.js"></script>
+        <section class="products section-padding">
+            <div class="container">
+                <div class="row">
 
-    </body>
+                    <div class="col-12">
+                        <h2 class="mb-5">Android Development</h2>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-3">
+                        <div class="product-thumb">
+                            <a href="product-detail.html">
+                                <img src="images/slideshow/Message-banner.jpg" class="img-fluid product-image" alt="">
+                            </a>
+
+
+
+                            <div class="product-info d-flex">
+                                <div>
+                                    <h5 class="product-title mb-0">
+                                        <a href="product-detail.html" class="product-title-link">Messanger</a>
+                                    </h5>
+
+                                    <p class="product-p">Messanger-Text Message App</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-3">
+                        <div class="product-thumb">
+                            <a href="product-detail.html">
+                                <img src="images/slideshow/Flyer.webp" class="img-fluid product-image" alt="">
+                            </a>
+
+
+
+                            <div class="product-info d-flex">
+                                <div>
+                                    <h5 class="product-title mb-0">
+                                        <a href="product-detail.html" class="product-title-link">Flyer-Template
+                                            Maker</a>
+                                    </h5>
+                                    <p class="product-p">Flyer maker: Poster my wall</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12">
+                        <div class="product-thumb">
+                            <a href="product-detail.html">
+                                <img src="images/product/Gallery.jpg" class="img-fluid product-image" alt="">
+                            </a>
+
+                            <div class="product-top d-flex">
+                                <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                            </div>
+
+                            <div class="product-info d-flex">
+                                <div>
+                                    <h5 class="product-title mb-0">
+                                        <a href="product-detail.html" class="product-title-link">Photo Gallery</a>
+                                    </h5>
+
+                                    <p class="product-p"> Private gallery, collection gallery, and photo gallery!
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <h2 class="mb-5">ios Development</h2>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-3">
+                        <div class="product-thumb">
+                            <a href="product-detail.html">
+                                <img src="images/slideshow/Hangman.jpg" class="img-fluid product-image" alt="">
+                            </a>
+
+                            <div class="product-top d-flex">
+                                <span class="product-alert">Hangman</span>
+
+                                <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                            </div>
+
+                            <div class="product-info d-flex">
+                                <div>
+                                    <h5 class="product-title mb-0">
+                                        <a href="product-detail.html" class="product-title-link">Hangman Game</a>
+                                    </h5>
+
+                                    <p class="product-p">Guess the letters in the secret word to solve the puzzle</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-3">
+                        <div class="product-thumb">
+                            <a href="product-detail.html">
+                                <img src="images/product/Weather.jpg" class="img-fluid product-image" alt="">
+                            </a>
+
+                            <div class="product-top d-flex">
+                                <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                            </div>
+
+                            <div class="product-info d-flex">
+                                <div>
+                                    <h5 class="product-title mb-0">
+                                        <a href="product-detail.html" class="product-title-link">Weather</a>
+                                    </h5>
+
+                                    <p class="product-p">Weather App using SwiftUi</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-3">
+                        <div class="product-thumb">
+                            <a href="product-detail.html">
+                                <img src="images/product/Signup.png" class="img-fluid product-image" alt="">
+                            </a>
+
+                            <div class="product-top d-flex">
+                                <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                            </div>
+
+                            <div class="product-info d-flex">
+                                <div>
+                                    <h5 class="product-title mb-0">
+                                        <a href="product-detail.html" class="product-title-link">Authentication</a>
+                                    </h5>
+
+                                    <p class="product-p">Authentication with Firebase</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="front-product">
+            <div class="container-fluid p-0">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6 col-12">
+                        <img src="images/product/Tourism2.png" class="img-fluid"
+                            alt="">
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="px-5 py-5 py-lg-0">
+
+                            <h2 class="mb-4"><span>Tourism</span>   </h2>
+
+                            <p class="product-p">
+                                One of the oldest civilisations in the world, India is a mosaic of multicultural experiences. With a rich heritage and myriad attractions, the country is among the most popular tourist destinations in the world. It covers an area of 32, 87,263 sq. km, extending from the snow-covered Himalayan heights to the tropical rain forests of the south. As the 7th largest country in the world, India stands apart from the rest of Asia, marked off as it is by mountains and the sea, which give the country a distinct geographical entity.
+
+                            </p>
+
+                            <!-- <a href="products.html" class="custom-link">
+                                Explore Products
+                                <i class="bi-arrow-right ms-2"></i>
+                            </a> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-10 me-auto mb-4">
+                    <h4 class="text-white mb-3"><a href="index.html">Nirali</a> Pandya</h4>
+                    <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2024 <strong>Nirali
+                            Pandya</strong></p>
+                    <br>
+
+                </div>
+
+                <div class="col-lg-5 col-8">
+                    <h5 class="text-white mb-3">Sitemap</h5>
+
+                    <ul class="footer-menu d-flex flex-wrap">
+                        <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Story</a></li>
+
+                        <li class="footer-menu-item"><a href="products.html" class="footer-menu-link">Products</a></li>
+
+                        <li class="footer-menu-item"><a href="contact.html" class="footer-menu-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-4">
+                    <h5 class="text-white mb-3">Social</h5>
+
+                    <ul class="social-icon">
+
+                        <li><a href="https://www.linkedin.com/in/nirali-pandya-a00659b1"
+                                class="social-icon-link bi-linkedin"></a></li>
+
+                        <li><a href="mailto:nehavaidya95@gmail.com" class="social-icon-link bi-envelope"></a></li>
+
+                        <li><a href="https://join.skype.com/invite/yxzkhqr0HZ6B" class="social-icon-link bi-skype"></a>
+                        <li><a href="https://github.com/Nirali123456789" class="social-icon-link bi-github"></a></li>
+                        <li><a href="https://github.com/Nirali123456789" class="bi-medium"></a></li>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
 </html>
