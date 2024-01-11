@@ -258,6 +258,11 @@ strong {
   background: var(--primary-color);
   color: var(--white-color);
 }
+.custom-btn1:hover
+{
+  background: var(--primary-color);
+  color: var(--white-color);
+}
 
 .custom-icon {
   color: var(--p-color);
